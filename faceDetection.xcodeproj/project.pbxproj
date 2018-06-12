@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D8A1AF920CE498B00986DCF /* OrientationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A1AF820CE498B00986DCF /* OrientationHelper.swift */; };
 		5DAEA15720CBB4040049B5A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEA15620CBB4040049B5A0 /* AppDelegate.swift */; };
 		5DAEA15920CBB4040049B5A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAEA15820CBB4040049B5A0 /* ViewController.swift */; };
 		5DAEA15C20CBB4040049B5A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAEA15A20CBB4040049B5A0 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D8A1AF820CE498B00986DCF /* OrientationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationHelper.swift; sourceTree = "<group>"; };
 		5DAEA15320CBB4040049B5A0 /* faceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAEA15620CBB4040049B5A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DAEA15820CBB4040049B5A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		5DAEA15520CBB4040049B5A0 /* faceDetection */ = {
 			isa = PBXGroup;
 			children = (
+				5D8A1AF820CE498B00986DCF /* OrientationHelper.swift */,
 				5DAEA15620CBB4040049B5A0 /* AppDelegate.swift */,
 				5DAEA15820CBB4040049B5A0 /* ViewController.swift */,
 				5DAEA15A20CBB4040049B5A0 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DAEA15920CBB4040049B5A0 /* ViewController.swift in Sources */,
+				5D8A1AF920CE498B00986DCF /* OrientationHelper.swift in Sources */,
 				5DAEA15720CBB4040049B5A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EVAFYVHN78;
 				INFOPLIST_FILE = faceDetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EVAFYVHN78;
 				INFOPLIST_FILE = faceDetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
